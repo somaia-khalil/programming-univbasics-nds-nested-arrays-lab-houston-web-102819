@@ -25,7 +25,7 @@ def array_literal_matrix
   array1 = ENNET_HOUSE.sort 
   array2 = ENFIELD_TENNIS_ACADEMY.sort 
   array3 = [array1 , array2 ]
-  Return array3
+   return array3
 end
 
 def matrix_lookup(matrix, row, column)
