@@ -22,9 +22,10 @@ def assembled_matrix
 end
 
 def array_literal_matrix
-  # Using Array literal syntax only, build a nested array that uses the data in
-  # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
-  # alphabetically by the first character.
+  array1 = ENNET_HOUSE.sort 
+  array2 = ENFIELD_TENNIS_ACADEMY.sort 
+  array3 = [array1 , array2 ]
+  Return array3
 end
 
 def matrix_lookup(matrix, row, column)
